@@ -46,29 +46,4 @@ plt.legend()
 plt.savefig('plots/overall use plot.png')  # Save CDF plot
 plt.show()
 
-# # 2. **Ease of Use Breakdown by Aspect**
-# aspects = ['UI', 'Integration', 'Control']
-# colors = ['b', 'orange', 'purple']
-
-# # For each aspect, plot positive and negative reviews
-# for i, aspect in enumerate(aspects):
-#     fig, ax = plt.subplots(figsize=(10, 6))
-
-#     # Extracting the data for this aspect
-#     positive_reviews = [results[app][aspect][0] for app in apps]
-#     negative_reviews = [results[app][aspect][1] for app in apps]
-
-#     # Plotting the aspect comparison
-#     plt.bar(index, positive_reviews, bar_width, label=f'Positive {aspect}', color=colors[i])
-#     plt.bar([i + bar_width for i in index], negative_reviews, bar_width, label=f'Negative {aspect}', color='r')
-
-#     plt.xlabel('Applications')
-#     plt.ylabel('Number of Reviews')
-#     plt.title(f'{aspect} Aspect Comparison')
-#     plt.xticks([i + bar_width/2 for i in index], apps)
-#     plt.legend()
-
-#     plt.savefig(f'plots/{aspect} plot.png')  # Save CDF plot
-#     # Adjust layout and show plots
-#     plt.tight_layout()
-#     plt.show()
+# 2. **Ease of Use frequency by aspects**
