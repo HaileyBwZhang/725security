@@ -71,7 +71,7 @@ authentication_keywords = [
 vulnerability_keywords = [
     'hack', 'breach', 'exploit', 'risk', 'attack', 
     'vulnerability', 'phishing', 'malware', 'security flaw', 
-    'loophole', 'weakness', 'threat'
+    'loophole', 'weakness', 'threat', 'bug'
 ]
 updates_keywords = [
     'update', 'patch', 'improve', 'fix', 'version', 
